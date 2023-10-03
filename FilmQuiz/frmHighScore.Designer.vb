@@ -22,9 +22,68 @@ Partial Class frmHighScore
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.lstHighScore = New System.Windows.Forms.ListBox()
+        Me.btnAgain = New System.Windows.Forms.Button()
+        Me.btnQuit = New System.Windows.Forms.Button()
+        Me.lblScore = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'lstHighScore
+        '
+        Me.lstHighScore.FormattingEnabled = True
+        Me.lstHighScore.Location = New System.Drawing.Point(188, 139)
+        Me.lstHighScore.Name = "lstHighScore"
+        Me.lstHighScore.Size = New System.Drawing.Size(382, 160)
+        Me.lstHighScore.TabIndex = 0
+        '
+        'btnAgain
+        '
+        Me.btnAgain.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAgain.Location = New System.Drawing.Point(618, 315)
+        Me.btnAgain.Name = "btnAgain"
+        Me.btnAgain.Size = New System.Drawing.Size(138, 43)
+        Me.btnAgain.TabIndex = 1
+        Me.btnAgain.Text = "Again"
+        Me.btnAgain.UseVisualStyleBackColor = True
+        '
+        'btnQuit
+        '
+        Me.btnQuit.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnQuit.Location = New System.Drawing.Point(618, 385)
+        Me.btnQuit.Name = "btnQuit"
+        Me.btnQuit.Size = New System.Drawing.Size(137, 43)
+        Me.btnQuit.TabIndex = 2
+        Me.btnQuit.Text = "Quit"
+        Me.btnQuit.UseVisualStyleBackColor = True
+        '
+        'lblScore
+        '
+        Me.lblScore.AutoSize = True
+        Me.lblScore.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblScore.Location = New System.Drawing.Point(96, 27)
+        Me.lblScore.Name = "lblScore"
+        Me.lblScore.Size = New System.Drawing.Size(613, 29)
+        Me.lblScore.TabIndex = 3
+        Me.lblScore.Text = "Congratulatulations Your Score Will Be Added To The Hall Of Fame"
+        '
+        'frmHighScore
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblScore)
+        Me.Controls.Add(Me.btnQuit)
+        Me.Controls.Add(Me.btnAgain)
+        Me.Controls.Add(Me.lstHighScore)
+        Me.Name = "frmHighScore"
         Me.Text = "frmHighScore"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+
+    Friend WithEvents lstHighScore As ListBox
+    Friend WithEvents btnAgain As Button
+    Friend WithEvents btnQuit As Button
+    Friend WithEvents lblScore As Label
 End Class
