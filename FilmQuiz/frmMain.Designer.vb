@@ -27,7 +27,7 @@ Partial Class frmMain
         Me.btnStart = New System.Windows.Forms.Button()
         Me.lblQuiz = New System.Windows.Forms.Label()
         Me.lblName = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -80,12 +80,12 @@ Partial Class frmMain
         Me.lblName.TabIndex = 3
         Me.lblName.Text = "Player Name"
         '
-        'TextBox1
+        'txtName
         '
-        Me.TextBox1.Location = New System.Drawing.Point(227, 362)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(256, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.txtName.Location = New System.Drawing.Point(227, 362)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(256, 20)
+        Me.txtName.TabIndex = 4
         '
         'PictureBox1
         '
@@ -147,7 +147,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.lblQuiz)
         Me.Controls.Add(Me.btnStart)
@@ -168,7 +168,7 @@ Partial Class frmMain
     Friend WithEvents btnStart As Button
     Friend WithEvents lblQuiz As Label
     Friend WithEvents lblName As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
