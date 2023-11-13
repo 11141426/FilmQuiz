@@ -30,15 +30,18 @@ Partial Class frmHighScore
         '
         'lstHighScore
         '
+        Me.lstHighScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstHighScore.FormattingEnabled = True
+        Me.lstHighScore.ItemHeight = 25
+        Me.lstHighScore.Items.AddRange(New Object() {"Name" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & "Score"})
         Me.lstHighScore.Location = New System.Drawing.Point(188, 139)
         Me.lstHighScore.Name = "lstHighScore"
-        Me.lstHighScore.Size = New System.Drawing.Size(382, 160)
+        Me.lstHighScore.Size = New System.Drawing.Size(382, 154)
         Me.lstHighScore.TabIndex = 0
         '
         'btnAgain
         '
-        Me.btnAgain.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAgain.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAgain.Location = New System.Drawing.Point(618, 315)
         Me.btnAgain.Name = "btnAgain"
         Me.btnAgain.Size = New System.Drawing.Size(138, 43)
@@ -48,7 +51,7 @@ Partial Class frmHighScore
         '
         'btnQuit
         '
-        Me.btnQuit.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnQuit.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnQuit.Location = New System.Drawing.Point(618, 385)
         Me.btnQuit.Name = "btnQuit"
         Me.btnQuit.Size = New System.Drawing.Size(137, 43)
@@ -59,10 +62,10 @@ Partial Class frmHighScore
         'lblScore
         '
         Me.lblScore.AutoSize = True
-        Me.lblScore.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblScore.Location = New System.Drawing.Point(96, 27)
+        Me.lblScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblScore.Location = New System.Drawing.Point(34, 24)
         Me.lblScore.Name = "lblScore"
-        Me.lblScore.Size = New System.Drawing.Size(613, 29)
+        Me.lblScore.Size = New System.Drawing.Size(722, 25)
         Me.lblScore.TabIndex = 3
         Me.lblScore.Text = "Congratulatulations Your Score Will Be Added To The Hall Of Fame"
         '

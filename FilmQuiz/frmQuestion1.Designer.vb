@@ -39,7 +39,7 @@ Partial Class frmQuestion1
         '
         'btnNext
         '
-        Me.btnNext.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnNext.Location = New System.Drawing.Point(794, 406)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(137, 49)
@@ -50,10 +50,10 @@ Partial Class frmQuestion1
         'btnAnswer1
         '
         Me.btnAnswer1.AutoSize = True
-        Me.btnAnswer1.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer1.Location = New System.Drawing.Point(15, 20)
         Me.btnAnswer1.Name = "btnAnswer1"
-        Me.btnAnswer1.Size = New System.Drawing.Size(75, 33)
+        Me.btnAnswer1.Size = New System.Drawing.Size(82, 29)
         Me.btnAnswer1.TabIndex = 1
         Me.btnAnswer1.TabStop = True
         Me.btnAnswer1.Text = "1920"
@@ -62,10 +62,10 @@ Partial Class frmQuestion1
         'btnAnswer2
         '
         Me.btnAnswer2.AutoSize = True
-        Me.btnAnswer2.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer2.Location = New System.Drawing.Point(15, 57)
         Me.btnAnswer2.Name = "btnAnswer2"
-        Me.btnAnswer2.Size = New System.Drawing.Size(75, 33)
+        Me.btnAnswer2.Size = New System.Drawing.Size(82, 29)
         Me.btnAnswer2.TabIndex = 2
         Me.btnAnswer2.TabStop = True
         Me.btnAnswer2.Text = "1921"
@@ -74,10 +74,10 @@ Partial Class frmQuestion1
         'btnAnswer3
         '
         Me.btnAnswer3.AutoSize = True
-        Me.btnAnswer3.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAnswer3.Location = New System.Drawing.Point(15, 88)
         Me.btnAnswer3.Name = "btnAnswer3"
-        Me.btnAnswer3.Size = New System.Drawing.Size(75, 33)
+        Me.btnAnswer3.Size = New System.Drawing.Size(82, 29)
         Me.btnAnswer3.TabIndex = 3
         Me.btnAnswer3.TabStop = True
         Me.btnAnswer3.Text = "1931"
@@ -86,10 +86,10 @@ Partial Class frmQuestion1
         'bntAnswer4
         '
         Me.bntAnswer4.AutoSize = True
-        Me.bntAnswer4.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bntAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bntAnswer4.Location = New System.Drawing.Point(15, 127)
         Me.bntAnswer4.Name = "bntAnswer4"
-        Me.bntAnswer4.Size = New System.Drawing.Size(75, 33)
+        Me.bntAnswer4.Size = New System.Drawing.Size(82, 29)
         Me.bntAnswer4.TabIndex = 4
         Me.bntAnswer4.TabStop = True
         Me.bntAnswer4.Text = "1935"
@@ -118,10 +118,10 @@ Partial Class frmQuestion1
         'lblQuestion
         '
         Me.lblQuestion.AutoSize = True
-        Me.lblQuestion.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblQuestion.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblQuestion.Location = New System.Drawing.Point(312, 30)
         Me.lblQuestion.Name = "lblQuestion"
-        Me.lblQuestion.Size = New System.Drawing.Size(384, 29)
+        Me.lblQuestion.Size = New System.Drawing.Size(448, 25)
         Me.lblQuestion.TabIndex = 7
         Me.lblQuestion.Text = "In What Year Was Audrey Hepburn Born?"
         '
