@@ -9,6 +9,7 @@
     End Sub
 
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
+        tmrQuestion3.Enabled = False
         If btnAnswer1.Checked Then
             playerScore += 1
         End If

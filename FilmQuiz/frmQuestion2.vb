@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext2.Click
+        tmrQuestion2.Enabled = False
         If btnAnswer3.Checked Then
             playerScore = playerScore + 1
         End If

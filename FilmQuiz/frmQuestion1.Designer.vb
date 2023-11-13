@@ -22,6 +22,7 @@ Partial Class frmQuestion1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmQuestion1))
         Me.btnNext = New System.Windows.Forms.Button()
         Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
@@ -32,6 +33,8 @@ Partial Class frmQuestion1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.lblQuestion = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.ProgressBarQ1 = New System.Windows.Forms.ProgressBar()
+        Me.tmrQuestion1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -68,7 +71,7 @@ Partial Class frmQuestion1
         Me.btnAnswer2.Size = New System.Drawing.Size(82, 29)
         Me.btnAnswer2.TabIndex = 2
         Me.btnAnswer2.TabStop = True
-        Me.btnAnswer2.Text = "1921"
+        Me.btnAnswer2.Text = "1929"
         Me.btnAnswer2.UseVisualStyleBackColor = True
         '
         'btnAnswer3
@@ -137,11 +140,23 @@ Partial Class frmQuestion1
         Me.GroupBox1.TabIndex = 8
         Me.GroupBox1.TabStop = False
         '
+        'ProgressBarQ1
+        '
+        Me.ProgressBarQ1.Location = New System.Drawing.Point(191, 380)
+        Me.ProgressBarQ1.Name = "ProgressBarQ1"
+        Me.ProgressBarQ1.Size = New System.Drawing.Size(519, 61)
+        Me.ProgressBarQ1.TabIndex = 9
+        '
+        'tmrQuestion1
+        '
+        Me.tmrQuestion1.Interval = 1000
+        '
         'frmQuestion1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(955, 470)
+        Me.Controls.Add(Me.ProgressBarQ1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblQuestion)
         Me.Controls.Add(Me.PictureBox2)
@@ -167,4 +182,6 @@ Partial Class frmQuestion1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents lblQuestion As Label
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents ProgressBarQ1 As ProgressBar
+    Friend WithEvents tmrQuestion1 As Timer
 End Class
