@@ -1,24 +1,44 @@
 ﻿Public Class frmQuestion2
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblQuestion2.Click
+    Public Sub init()
 
+        progressCount = 0
+        tmrQuestion2.Enabled = True
+        ProgressBarQ2.Value = 0
+        btnAnswer1.Checked = False
+        btnAnswer2.Checked = False
+        btnAnswer3.Checked = False
+        btnAnswer4.Checked = False
     End Sub
-
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext2.Click
         tmrQuestion2.Enabled = False
         If btnAnswer3.Checked Then
             playerScore = playerScore + 1
         End If
         frmQuestion3.Show()
-
+        frmQuestion3.init()
 
         Me.Hide()
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+    Private Sub ProgressBarQ2_Click(sender As Object, e As EventArgs) Handles ProgressBarQ2.Click
 
     End Sub
 
-    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+    Private Sub frmQuestion2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub tmrQuestion2_Tick(sender As Object, e As EventArgs) Handles tmrQuestion2.Tick
+        progressCount = progressCount + 1
+        ProgressBarQ2.PerformStep()
+        If progressCount = 10 Then
+            tmrQuestion2.Enabled = False
+            MsgBox("Too Slow Try Again")
+            frmQuestion3.Show()
+            frmQuestion3.init()
+            Me.Hide()
+
+        End If
     End Sub
 End Class

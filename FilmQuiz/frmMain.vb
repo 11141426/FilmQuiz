@@ -7,7 +7,7 @@
         playerScore = 0
         playerName = txtName.Text
         frmQuestion1.Show()
-
+        frmQuestion1.init()
         Me.Hide()
     End Sub
 

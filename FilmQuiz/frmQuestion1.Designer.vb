@@ -28,7 +28,7 @@ Partial Class frmQuestion1
         Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
-        Me.bntAnswer4 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.lblQuestion = New System.Windows.Forms.Label()
@@ -86,17 +86,17 @@ Partial Class frmQuestion1
         Me.btnAnswer3.Text = "1931"
         Me.btnAnswer3.UseVisualStyleBackColor = True
         '
-        'bntAnswer4
+        'btnAnswer4
         '
-        Me.bntAnswer4.AutoSize = True
-        Me.bntAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bntAnswer4.Location = New System.Drawing.Point(15, 127)
-        Me.bntAnswer4.Name = "bntAnswer4"
-        Me.bntAnswer4.Size = New System.Drawing.Size(82, 29)
-        Me.bntAnswer4.TabIndex = 4
-        Me.bntAnswer4.TabStop = True
-        Me.bntAnswer4.Text = "1935"
-        Me.bntAnswer4.UseVisualStyleBackColor = True
+        Me.btnAnswer4.AutoSize = True
+        Me.btnAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer4.Location = New System.Drawing.Point(15, 127)
+        Me.btnAnswer4.Name = "btnAnswer4"
+        Me.btnAnswer4.Size = New System.Drawing.Size(82, 29)
+        Me.btnAnswer4.TabIndex = 4
+        Me.btnAnswer4.TabStop = True
+        Me.btnAnswer4.Text = "1935"
+        Me.btnAnswer4.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -130,7 +130,7 @@ Partial Class frmQuestion1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.bntAnswer4)
+        Me.GroupBox1.Controls.Add(Me.btnAnswer4)
         Me.GroupBox1.Controls.Add(Me.btnAnswer3)
         Me.GroupBox1.Controls.Add(Me.btnAnswer2)
         Me.GroupBox1.Controls.Add(Me.btnAnswer1)
@@ -177,7 +177,7 @@ Partial Class frmQuestion1
     Friend WithEvents btnAnswer1 As RadioButton
     Friend WithEvents btnAnswer2 As RadioButton
     Friend WithEvents btnAnswer3 As RadioButton
-    Friend WithEvents bntAnswer4 As RadioButton
+    Friend WithEvents btnAnswer4 As RadioButton
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents lblQuestion As Label
